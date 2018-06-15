@@ -7,8 +7,9 @@
 }
 h1 {
     font-family: "Times New Roman", serif;
+    color: black;
 }
-p {
+body {
     font-family: "Arial Unicode MS", sans-serif;
     color: gray;
     line-height: 2;
@@ -39,6 +40,6 @@ p {
     height: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background: none;
+    background: transparent;
     cursor: pointer;
 }
