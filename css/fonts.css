@@ -1,0 +1,44 @@
+
+.border {
+    margin: 10% auto;
+    width: 70%;
+    padding: 5%;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+h1 {
+    font-family: "Times New Roman", serif;
+}
+p {
+    font-family: "Arial Unicode MS", sans-serif;
+    color: gray;
+    line-height: 2;
+}
+.first_paragraph:first-letter {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 650%;
+    float: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: -0.1em;
+    margin-right: 0.09em;
+    padding-left: 4px;
+}
+.quote {
+    font-size: 120%;
+    font-style: italic;
+}
+ .quote:before {
+     content: "\201c";
+     font-size: 300%;
+}
+.orange_button {
+    border: 1px solid orange;
+    color: orange;
+    width: 25%;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: none;
+    cursor: pointer;
+}
