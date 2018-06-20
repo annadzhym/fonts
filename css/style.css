@@ -14,7 +14,7 @@ body {
     color: gray;
     line-height: 2;
 }
-.letter:first-letter {
+p:first-of-type:first-letter {
     color: black;
     font-family: "Times New Roman", serif;
     font-size: 650%;
